@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFirstMovilApp</string>
+    <string name="welcome_text">Welcome to First App¡¡</string>
+    <string name="content_welcome_text">linux image</string>
+</resources>
