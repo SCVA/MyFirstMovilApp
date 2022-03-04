@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -26,10 +27,12 @@
         android:layout_height="241dp"
         android:contentDescription="@string/content_welcome_text"
         android:foregroundGravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_editor_absoluteX="@dimen/absolute_layout"
         app:layout_editor_absoluteY="@dimen/absolute_layout"
-        app:srcCompat="@drawable/ic_linux_tux"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="80dp" />
+        app:srcCompat="@drawable/ic_linux_tux" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
